@@ -1,7 +1,7 @@
 # stocksim
 
-A Clojure app to ... well, that part is up to you.
+Trying out core.async channels. 
 
 ## Usage
 
-FIXME
+(exec-sim)
