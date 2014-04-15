@@ -3,6 +3,7 @@
              :refer [chan >! <! timeout go]
               :as async]))
 
+
 (defn adjust-price [old-price]
   (let  [numerator (- (rand-int 30) 15)
          adjustment (* numerator 0.01M)]
